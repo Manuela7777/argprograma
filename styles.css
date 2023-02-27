@@ -1,0 +1,173 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+p, label, ::placeholder, button, a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1  {
+   font-family: 'Josefin Sans', sans-serif;
+   margin-top: 20px;
+}
+
+h2,h4  {
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+h3  {
+    font-family: 'Josefin Sans', sans-serif;;
+    margin-top: 10px;
+}
+
+
+section {
+    height: 90vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+section id  {
+    scroll-margin-top: 70px;
+}
+
+section#protagonista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+section#informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section#informacion h2  {
+    margin-bottom: 50px;
+}
+
+section#informacion p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#informacion img{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+section#contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+section#protagonista h2 {
+    margin-top: 10px;
+}
+
+section#protagonista h4 {
+    margin-top: 10px;
+}
+
+
+.circular--square {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+section#proyectos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+section#contacto h2 {
+
+    margin-top: 400px;
+    margin-bottom: 50px;
+
+}
+
+section#contacto div    {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tipo-experiencia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.desarrollo-experiencia{
+    border: 8px solid black;
+    width: 300px;
+    margin: 20px;
+}
+
+.desarrollo-experiencia img {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header  {
+    background-color: burlywood;
+    position: sticky;
+    top: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav ul {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    border: 5px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+}
